@@ -88,3 +88,35 @@ body {
 .contact-item:hover {
     color: #8cece2;
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    body {
+        height: auto;
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .logo {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .contact-item {
+        font-size: 1em;
+    }
+
+    .contact-item img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-info {
+        gap: 10px;
+    }
+}
